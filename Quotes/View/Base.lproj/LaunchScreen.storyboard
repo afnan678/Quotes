@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9952edbf30a3c55f6d67796a105a7562" translatesAutoresizingMaskIntoConstraints="NO" id="iiA-5V-xfS">
+                                <rect key="frame" x="83" y="562" width="400" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="ip0-lS-TCe"/>
+                                    <constraint firstAttribute="height" constant="350" id="jHb-Yr-sR2"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bird_2" translatesAutoresizingMaskIntoConstraints="NO" id="KcE-al-9sx">
+                                <rect key="frame" x="89.666666666666686" y="354" width="214" height="144"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="22fb1799d4eef82c80bc4402726da818" translatesAutoresizingMaskIntoConstraints="NO" id="btn-Z8-VK0">
+                                <rect key="frame" x="154.66666666666666" y="388" width="84" height="76"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1b55d1da0d38119e0249b30993913d63" translatesAutoresizingMaskIntoConstraints="NO" id="c4x-fi-338">
+                                <rect key="frame" x="20" y="40" width="124" height="85"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NewQuotes" translatesAutoresizingMaskIntoConstraints="NO" id="Y9x-4Z-pDP">
+                                <rect key="frame" x="89.666666666666686" y="508" width="214" height="45"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Y9x-4Z-pDP" firstAttribute="leading" secondItem="KcE-al-9sx" secondAttribute="leading" id="KYr-7k-hqe"/>
+                            <constraint firstItem="btn-Z8-VK0" firstAttribute="centerY" secondItem="KcE-al-9sx" secondAttribute="centerY" id="TTQ-FR-45A"/>
+                            <constraint firstAttribute="bottom" secondItem="iiA-5V-xfS" secondAttribute="bottom" constant="-60" id="U8d-5U-29m"/>
+                            <constraint firstItem="c4x-fi-338" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Y3K-wx-iCa"/>
+                            <constraint firstItem="Y9x-4Z-pDP" firstAttribute="top" secondItem="KcE-al-9sx" secondAttribute="bottom" constant="10" id="YxL-s2-pbx"/>
+                            <constraint firstItem="KcE-al-9sx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ZWX-Ui-z1q"/>
+                            <constraint firstItem="btn-Z8-VK0" firstAttribute="centerX" secondItem="KcE-al-9sx" secondAttribute="centerX" id="hSU-6s-vlT"/>
+                            <constraint firstItem="Y9x-4Z-pDP" firstAttribute="trailing" secondItem="KcE-al-9sx" secondAttribute="trailing" id="hSv-YZ-BeR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iiA-5V-xfS" secondAttribute="trailing" constant="-90" id="qf9-nl-QCt"/>
+                            <constraint firstItem="c4x-fi-338" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="40" id="tzy-Bw-gpb"/>
+                            <constraint firstItem="KcE-al-9sx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xzF-SO-dPv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1b55d1da0d38119e0249b30993913d63" width="124.71499633789062" height="85.4010009765625"/>
+        <image name="22fb1799d4eef82c80bc4402726da818" width="84.389999389648438" height="76.132003784179688"/>
+        <image name="9952edbf30a3c55f6d67796a105a7562" width="382.77999877929688" height="365.74398803710938"/>
+        <image name="NewQuotes" width="214" height="45"/>
+        <image name="bird_2" width="144" height="144"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

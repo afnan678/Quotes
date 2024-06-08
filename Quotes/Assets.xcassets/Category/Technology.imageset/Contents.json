@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "The-Tech-Landscape-Significant-Industry-Shifts-and-Data-Security-Deliberations_655114f4381cc.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
